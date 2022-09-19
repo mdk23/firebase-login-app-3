@@ -5,6 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fdc830;
+
+  background:-webkit-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  );
+
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  );
+
 }
 
 code {
